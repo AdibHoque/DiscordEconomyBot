@@ -1,10 +1,10 @@
 {
-    "token":"your discord bot secret token",
+    "token":"",
     "prefix":"e!",
-    "game":"",
+    "game":"ELECTRO",
     "embed":{
         "color":"#ffbf00",
-        "footer":"By Androz#2091 | Open Source DiscordBot"
+        "footer":"© 2020 ELECTRO, Inc."
     },
     "administrators":[
         "AdminID",
