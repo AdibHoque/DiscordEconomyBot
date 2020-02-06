@@ -1,1 +1,1 @@
-worker: npm node main.js
+worker: npm test
