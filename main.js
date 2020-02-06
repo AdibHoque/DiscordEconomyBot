@@ -1,5 +1,6 @@
 const Discord = require("discord.js"), // npm install discord.js
 ms = require("ms"), // npm install ms
+os = require("os")
 Quickdb = require("quick.db"), // npm install Androz2091/quick.db
 AsciiTable = require("ascii-table"); // npm install ascii-table
 
@@ -19,7 +20,7 @@ const config = require("./config.json"), // Load config.json file
 functions = require("./functions.js"),
 bot = new Discord.Client(); // Create the discord Client
 
-bot.login(config.token); // Discord authentification
+bot.login(os.getenv('Token') ); // Discord authentification
 
 bot.on("ready", () => { // When the bot is ready
     bot.user.setActivity(config.game);
